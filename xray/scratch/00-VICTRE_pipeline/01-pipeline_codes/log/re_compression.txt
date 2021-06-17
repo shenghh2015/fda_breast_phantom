@@ -1,0 +1,55 @@
+
+lesion_cmd_path = os.path.expanduser('~/05-VICTRE/LesionInsertion')
+n phantom_compress_crop.py 937966509 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 937966509 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/937966509
+/home/shenghua/03-breastCrop/breastCrop -s 937966509 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/937966509
+python phantom_compress_crop.py 939221724 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 939221724 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/939221724
+/home/shenghua/03-breastCrop/breastCrop -s 939221724 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/939221724
+python phantom_compress_crop.py 938627037 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 938627037 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/938627037
+/home/shenghua/03-breastCrop/breastCrop -s 938627037 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/938627037
+python phantom_compress_crop.py 937084863 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 937084863 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/937084863
+/home/shenghua/03-breastCrop/breastCrop -s 937084863 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/937084863
+python phantom_compress_crop.py 937858960 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 937858960 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/937858960
+/home/shenghua/03-breastCrop/breastCrop -s 937858960 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/937858960
+python phantom_compress_crop.py 934066796 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 934066796 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/934066796
+/home/shenghua/03-breastCrop/breastCrop -s 934066796 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/934066796
+python phantom_compress_crop.py 934009246 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 934009246 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/934009246
+/home/shenghua/03-breastCrop/breastCrop -s 934009246 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/934009246
+python phantom_compress_crop.py 933744726 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 933744726 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/933744726
+/home/shenghua/03-breastCrop/breastCrop -s 933744726 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/933744726
+python phantom_compress_crop.py 939024924 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 939024924 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/939024924
+terminate called after throwing an instance of 'int'
+Aborted (core dumped)
+Traceback (most recent call last):
+  File "phantom_compress_crop.py", line 47, in <module>
+    results = subprocess.check_output(myCmd, shell=True)
+  File "/home/shenghua/anaconda2/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+subprocess.CalledProcessError: Command '/home/shenghua/02-breastCompress/breastCompress -s 939024924 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/939024924' returned non-zero exit status 134
+python phantom_compress_crop.py 930912740 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 930912740 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/930912740
+/home/shenghua/03-breastCrop/breastCrop -s 930912740 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/930912740
+python phantom_compress_crop.py 937370880 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 937370880 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/937370880
+/home/shenghua/03-breastCrop/breastCrop -s 937370880 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/937370880
+python phantom_compress_crop.py 936490262 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 936490262 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/936490262
+/home/shenghua/03-breastCrop/breastCrop -s 936490262 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/936490262
+python phantom_compress_crop.py 936077930 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 936077930 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/936077930
+/home/shenghua/03-breastCrop/breastCrop -s 936077930 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/936077930
+python phantom_compress_crop.py 930586262 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 930586262 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/930586262
+/home/shenghua/03-breastCrop/breastCrop -s 930586262 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/930586262
+python phantom_compress_crop.py 935721109 scattered /home/shenghua/08-Phantom_Set
+/home/shenghua/02-breastCompress/breastCompress -s 935721109 -t 55 -a 0 -d /home/shenghua/08-Phantom_Set/935721109
+/home/shenghua/03-breastCrop/breastCrop -s 935721109 -g 1.0 -x 1740 -y 2415 -z 1140 -d /home/shenghua/08-Phantom_Set/935721109
+
